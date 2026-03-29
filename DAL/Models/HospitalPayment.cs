@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL.Models
+{
+    public class HospitalPayment
+    {
+       public Guid Id { get; set; } = Guid.NewGuid();
+
+        public Guid HospitalId { get; set; }
+
+        public decimal TotalAmount { get; set; }
+        public DateTime PaidAt { get; set; } = DateTime.UtcNow;
+
+        public Hospital Hospital { get; set; } = null!;
+    }
+}

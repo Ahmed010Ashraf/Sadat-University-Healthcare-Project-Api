@@ -1,0 +1,6 @@
+@FHIA_HostAddress = http://localhost:5208
+
+GET {{FHIA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
