@@ -1,4 +1,3 @@
-
 using BLL.Dtos;
 using BLL.MappingProfile;
 using BLL.ServiceAbstraction;
@@ -8,12 +7,10 @@ using DAL.Models;
 using DAL.repositories.RepoAbstraction;
 using DAL.repositories.RepoImplementation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System.Data;
 
 namespace FHIA
 {
@@ -27,7 +24,7 @@ namespace FHIA
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-           
+
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(option =>
@@ -46,25 +43,25 @@ namespace FHIA
 
                 option.AddSecurityRequirement(new OpenApiSecurityRequirement
 {
-    {
-        new OpenApiSecurityScheme
-        {
-            Reference = new OpenApiReference
-            {
-                Type = ReferenceType.SecurityScheme,
-                Id = "Bearer"
-            }
-        },
-        Array.Empty<string>()
-    }
-            });
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        Array.Empty<string>()
+                    }
+                });
             });
 
             //allow dependancy injection for services and repos
             builder.Services.AddScoped(typeof(IGenericReposatory<,>), typeof(GenericReposatory<,>));
             builder.Services.AddScoped<IUOW, UOW>();
-            builder.Services.AddScoped<IAuthenticationService,AuthenticationService>();
-            builder.Services.AddScoped<IUserService ,UserService>();
+            builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+            builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IRoleService, RoleService>();
             builder.Services.AddScoped<IAttachmentService, AttachmentService>();
             builder.Services.AddScoped<IMedicalExaminationRequestService, MedicalExaminationRequestService>();
@@ -72,13 +69,22 @@ namespace FHIA
             builder.Services.AddScoped<IHospitalPaymentService, HospitalPaymentService>();
             builder.Services.AddScoped<IHospitalService, HospitalService>();
 
+            builder.Services.AddScoped<IPrescriptionRequestService, PrescriptionRequestService>();
+            builder.Services.AddScoped<IPrescriptionItemService, PrescriptionItemService>();
+            builder.Services.AddScoped<IPrescriptionDispenseService, PrescriptionDispenseService>();
+            builder.Services.AddScoped<IPrescriptionDispenseItemService, PrescriptionDispenseItemService>();
+            builder.Services.AddScoped<IPharmacyService, PharmacyService>();
+            builder.Services.AddScoped<IPharmacyPaymentService, PharmacyPaymentService>();
+            builder.Services.AddScoped<IPrescriptionService, PrescriptionService>();
+
+
 
             //configer mapping profile
             builder.Services.AddAutoMapper(cfg => { }, typeof(MappingProfilesAssemply).Assembly);
 
 
             //add dbcontext configurations    
-            
+
 
             builder.Services.AddDbContext<AppDbContext>(options =>
             {

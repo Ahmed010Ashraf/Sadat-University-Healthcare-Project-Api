@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\c#\\New folder (11)\\FHIA\\BLL\\BLL.csproj": {}
+    "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\c#\\New folder (11)\\FHIA\\BLL\\BLL.csproj": {
+    "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c#\\New folder (11)\\FHIA\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\c#\\New folder (11)\\FHIA\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\AL-BOSTAN\\.nuget\\packages\\",
-        "outputPath": "D:\\c#\\New folder (11)\\FHIA\\BLL\\obj\\",
+        "projectPath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AL-BOSTAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\c#\\New folder (11)\\FHIA\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\c#\\New folder (11)\\FHIA\\DAL\\DAL.csproj"
+              "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\DAL\\DAL.csproj"
               }
             }
           }
@@ -79,24 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\c#\\New folder (11)\\FHIA\\DAL\\DAL.csproj": {
+    "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c#\\New folder (11)\\FHIA\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\c#\\New folder (11)\\FHIA\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\AL-BOSTAN\\.nuget\\packages\\",
-        "outputPath": "D:\\c#\\New folder (11)\\FHIA\\DAL\\obj\\",
+        "projectPath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AL-BOSTAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

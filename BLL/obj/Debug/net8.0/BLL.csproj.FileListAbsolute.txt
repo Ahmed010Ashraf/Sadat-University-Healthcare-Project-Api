@@ -13,3 +13,19 @@ D:\c#\New folder (11)\FHIA\BLL\obj\Debug\net8.0\BLL.dll
 D:\c#\New folder (11)\FHIA\BLL\obj\Debug\net8.0\refint\BLL.dll
 D:\c#\New folder (11)\FHIA\BLL\obj\Debug\net8.0\BLL.pdb
 D:\c#\New folder (11)\FHIA\BLL\obj\Debug\net8.0\ref\BLL.dll
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\bin\Debug\net8.0\BLL.dll
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\bin\Debug\net8.0\BLL.pdb
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\bin\Debug\net8.0\DAL.dll
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\bin\Debug\net8.0\DAL.pdb
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.dll
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\BLL.pdb
+D:\netCore_demo\Sadat-University-Healthcare-Project-Api\BLL\obj\Debug\net8.0\ref\BLL.dll

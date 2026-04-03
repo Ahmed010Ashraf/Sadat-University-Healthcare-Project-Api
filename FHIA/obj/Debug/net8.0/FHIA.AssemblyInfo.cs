@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FHIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fb245028aaae99e2ee0d08fa1e0e948054c522b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FHIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FHIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
