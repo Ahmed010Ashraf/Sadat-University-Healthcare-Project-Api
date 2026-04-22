@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q2fyL4HbTrw=",
+  "dgSpecHash": "kjj8sFNXEu4=",
   "success": true,
-  "projectFilePath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

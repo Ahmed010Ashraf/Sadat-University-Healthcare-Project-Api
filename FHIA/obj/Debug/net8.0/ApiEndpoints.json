@@ -554,6 +554,26 @@
     ]
   },
   {
+    "ContainingType": "FHIA.Controllers.MedicalExaminationRequestController",
+    "Method": "GetMyRequests",
+    "RelativePath": "api/MedicalExaminationRequest/userRequests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BLL.Dtos.MedicalExaminationRequest.MedicalExaminationRequestResultDto, BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "FHIA.Controllers.PharmacyController",
     "Method": "GetAll",
     "RelativePath": "api/Pharmacy",
@@ -887,6 +907,26 @@
     "ReturnTypes": [
       {
         "Type": "BLL.Dtos.Prescription.PrescriptionResultDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FHIA.Controllers.PrescriptionController",
+    "Method": "GetMyPrescriptions",
+    "RelativePath": "api/Prescription/userPrescriptions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BLL.Dtos.Prescription.PrescriptionResultDto, BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -116,5 +116,14 @@ namespace BLL.ServiceImplementation
 
             return _mapper.Map<PrescriptionResultDto>(prescription);
         }
+
+        public async Task<IEnumerable<PrescriptionResultDto>> GetByUserId(Guid userId)
+        {
+            var prescriptions = await _uow.GetReposatory<Prescription, Guid>()
+                .GetAll(p => p.UserId == userId);
+            return _mapper.Map<IEnumerable<PrescriptionResultDto>>(prescriptions);
+        }
+
+
     }
 }

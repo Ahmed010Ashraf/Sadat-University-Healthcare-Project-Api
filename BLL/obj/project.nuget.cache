@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NC/4vaXSYSk=",
+  "dgSpecHash": "WJ1XezTUoCQ=",
   "success": true,
-  "projectFilePath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

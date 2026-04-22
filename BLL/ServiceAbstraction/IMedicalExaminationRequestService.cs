@@ -1,9 +1,4 @@
 ﻿using BLL.Dtos.MedicalExaminationRequest;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BLL.ServiceAbstraction
 {
@@ -13,8 +8,8 @@ namespace BLL.ServiceAbstraction
         Task<MedicalExaminationRequestResultDto> GetById(Guid id);
 
         Task<MedicalExaminationRequestResultDto> Create(Guid UserId, CreateOrUpdateMedicalExaminationRequestDto createOrUpdateMedicalExaminationRequestDto);
-        Task<MedicalExaminationRequestResultDto> Update(Guid UserId,Guid id , CreateOrUpdateMedicalExaminationRequestDto createOrUpdateMedicalExaminationRequestDto );
-
+        Task<MedicalExaminationRequestResultDto> Update(Guid UserId, Guid id, CreateOrUpdateMedicalExaminationRequestDto createOrUpdateMedicalExaminationRequestDto);
+        Task<IEnumerable<MedicalExaminationRequestResultDto>> GetByUserId(Guid userId);
         Task<bool> Delete(Guid id);
     }
 }

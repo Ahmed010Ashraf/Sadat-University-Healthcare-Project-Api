@@ -1,7 +1,6 @@
 ﻿using BLL.Dtos.MedicalExaminationRequest;
 using BLL.ServiceAbstraction;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -27,7 +26,7 @@ namespace FHIA.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<MedicalExaminationRequestResultDto>> Create (CreateOrUpdateMedicalExaminationRequestDto dto)
+        public async Task<ActionResult<MedicalExaminationRequestResultDto>> Create(CreateOrUpdateMedicalExaminationRequestDto dto)
         {
 
             var userIdValue = User.FindFirst(ClaimTypes.NameIdentifier)?.Value
@@ -52,12 +51,29 @@ namespace FHIA.Controllers
             {
                 return Unauthorized("Authenticated user id not found or not a valid GUID.");
             }
-            var res = await _service.Update(userId, id,dto);
+            var res = await _service.Update(userId, id, dto);
             return Ok(res);
         }
 
+
+        [HttpGet("userRequests")]
+        public async Task<ActionResult<IEnumerable<MedicalExaminationRequestResultDto>>> GetMyRequests()
+        {
+            var userIdValue = User.FindFirst(ClaimTypes.NameIdentifier)?.Value
+                              ?? User.FindFirst("sub")?.Value;
+
+            if (string.IsNullOrWhiteSpace(userIdValue) || !Guid.TryParse(userIdValue, out var userId))
+            {
+                return Unauthorized("Authenticated user id not found or not a valid GUID.");
+            }
+
+            var requests = await _service.GetByUserId(userId);
+            return Ok(requests);
+        }
+
         [HttpDelete]
-        public  async Task<ActionResult<bool>> Delete(Guid id) {
+        public async Task<ActionResult<bool>> Delete(Guid id)
+        {
             var res = await _service.Delete(id);
             return Ok(res);
         }

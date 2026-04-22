@@ -9,6 +9,7 @@ namespace BLL.ServiceAbstraction
         Task<PrescriptionResultDto> Create(Guid userId, CreateOrUpdatePrescriptionDto dto);
         Task Update(Guid id, CreateOrUpdatePrescriptionDto dto);
         Task Delete(Guid id);
+        Task<IEnumerable<PrescriptionResultDto>> GetByUserId(Guid userId);
         Task<PrescriptionResultDto> GetPrescriptionByRequestId(Guid requestId);
     }
 }

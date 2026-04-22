@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t52Uv/zinr0=",
+  "dgSpecHash": "PB/rx+/4y/g=",
   "success": true,
-  "projectFilePath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\FHIA\\FHIA.csproj",
+  "projectFilePath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\FHIA\\FHIA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

@@ -66,5 +66,18 @@ namespace FHIA.Controllers
             var res = await _service.GetPrescriptionByRequestId(id);
             return Ok(res);
         }
+
+        [HttpGet("userPrescriptions")]
+        public async Task<ActionResult<IEnumerable<PrescriptionResultDto>>> GetMyPrescriptions()
+        {
+            var userIdValue = User.FindFirst(ClaimTypes.NameIdentifier)?.Value
+                              ?? User.FindFirst("sub")?.Value;
+
+            if (string.IsNullOrWhiteSpace(userIdValue) || !Guid.TryParse(userIdValue, out var userId))
+                return Unauthorized("Authenticated user id not found or not a valid GUID.");
+
+            var prescriptions = await _service.GetByUserId(userId);
+            return Ok(prescriptions);
+        }
     }
 }
