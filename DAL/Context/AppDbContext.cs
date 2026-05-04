@@ -48,5 +48,6 @@ namespace DAL.Context
         public DbSet<PrescriptionItem> PrescriptionsItems { get; set; }
 
         public DbSet<PrescriptionRequest> PrescriptionsRequests { get; set; }
+        public DbSet<MonthlyLimit> MonthlyLimits { get; set; }
     }
 }

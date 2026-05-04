@@ -12,5 +12,6 @@ namespace DAL.Models.Enums
         Approved = 2,
         Rejected = 3,
         completed = 4,
+        expired = 5
     }
 }
