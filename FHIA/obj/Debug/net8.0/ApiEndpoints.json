@@ -395,6 +395,32 @@
     ]
   },
   {
+    "ContainingType": "FHIA.Controllers.MedicalExaminationController",
+    "Method": "GetMedicalExaminationByUserId",
+    "RelativePath": "api/MedicalExamination/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BLL.Dtos.MedicalExamination.MedicalExaminationResultDto, BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "FHIA.Controllers.MedicalExaminationRequestController",
     "Method": "GetAll",
     "RelativePath": "api/MedicalExaminationRequest",

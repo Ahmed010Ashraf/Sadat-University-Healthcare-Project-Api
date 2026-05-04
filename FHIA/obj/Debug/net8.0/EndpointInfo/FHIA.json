@@ -678,6 +678,55 @@
         }
       }
     },
+    "/api/MedicalExamination/User/{id}": {
+      "get": {
+        "tags": [
+          "MedicalExamination"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicalExaminationResultDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicalExaminationResultDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MedicalExaminationResultDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/MedicalExaminationRequest": {
       "get": {
         "tags": [

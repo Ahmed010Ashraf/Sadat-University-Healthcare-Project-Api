@@ -229,6 +229,20 @@ namespace DAL.Data.Migrations
                     b.ToTable("MedicalExaminationRequests");
                 });
 
+            modelBuilder.Entity("DAL.Models.MonthlyLimit", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Days")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MonthlyLimits");
+                });
+
             modelBuilder.Entity("DAL.Models.Pharmacy", b =>
                 {
                     b.Property<Guid>("Id")

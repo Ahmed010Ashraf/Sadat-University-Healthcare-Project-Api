@@ -27,3 +27,4 @@ D:\netCore_demo\Sadat-University-Healthcare-Project-Api\DAL\obj\Debug\net8.0\ref
 D:\netCore_demo\Sadat-University-Healthcare-Project-Api\DAL\obj\Debug\net8.0\DAL.pdb
 D:\netCore_demo\Sadat-University-Healthcare-Project-Api\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 D:\netCore_demo\Sadat-University-Healthcare-Project-Api\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\c#\New folder (11)\FHIA\DAL\obj\Debug\net8.0\DAL.sourcelink.json

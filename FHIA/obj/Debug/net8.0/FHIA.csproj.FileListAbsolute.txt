@@ -79,7 +79,6 @@ D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\staticwebassets.build.json
 D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\staticwebassets.development.json
 D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\FHIA.csproj.Up2Date
 D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\FHIA.dll
 D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\refint\FHIA.dll
@@ -319,3 +318,5 @@ D:\netCore_demo\Sadat-University-Healthcare-Project-Api\FHIA\obj\Debug\net8.0\re
 D:\netCore_demo\Sadat-University-Healthcare-Project-Api\FHIA\obj\Debug\net8.0\FHIA.pdb
 D:\netCore_demo\Sadat-University-Healthcare-Project-Api\FHIA\obj\Debug\net8.0\FHIA.genruntimeconfig.cache
 D:\netCore_demo\Sadat-University-Healthcare-Project-Api\FHIA\obj\Debug\net8.0\ref\FHIA.dll
+D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\FHIA.sourcelink.json
+D:\c#\New folder (11)\FHIA\FHIA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
