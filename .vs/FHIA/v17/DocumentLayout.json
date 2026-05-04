@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\dal\\models\\enums\\medicalexaminationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\models\\enums\\medicalexaminationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\dal\\repositories\\repoimplementation\\uow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\repoimplementation\\uow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\fhia\\controllers\\medicalexaminationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\medicalexaminationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\dal\\repositories\\repoabstraction\\iuow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\repoabstraction\\iuow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\fhia\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\dal\\repositories\\repoimplementation\\genericreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\repoimplementation\\genericreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\bll\\serviceimplementation\\prescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\prescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\bll\\serviceabstraction\\iprescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\iprescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\dal\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\bll\\serviceimplementation\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\netcore_demo\\sadat-university-healthcare-project-api\\sadat-university-healthcare-project-api\\fhia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 419,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,82 +70,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MedicalExaminationStatus.cs",
-              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\Models\\Enums\\MedicalExaminationStatus.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\Enums\\MedicalExaminationStatus.cs",
-              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\Models\\Enums\\MedicalExaminationStatus.cs",
-              "RelativeToolTip": "DAL\\Models\\Enums\\MedicalExaminationStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T19:01:36.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MedicalExaminationRequestController.cs",
-              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\FHIA\\Controllers\\MedicalExaminationRequestController.cs",
-              "RelativeDocumentMoniker": "FHIA\\Controllers\\MedicalExaminationRequestController.cs",
-              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\FHIA\\Controllers\\MedicalExaminationRequestController.cs",
-              "RelativeToolTip": "FHIA\\Controllers\\MedicalExaminationRequestController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwDoAAAAXAAAAAAAAAA==",
+              "Title": "IUOW.cs",
+              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\repositories\\RepoAbstraction\\IUOW.cs",
+              "RelativeDocumentMoniker": "DAL\\repositories\\RepoAbstraction\\IUOW.cs",
+              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\repositories\\RepoAbstraction\\IUOW.cs",
+              "RelativeToolTip": "DAL\\repositories\\RepoAbstraction\\IUOW.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T18:51:36.639Z",
+              "WhenOpened": "2026-05-02T08:11:02.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Prescription.cs",
-              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\Models\\Prescription.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\Prescription.cs",
-              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\Models\\Prescription.cs",
-              "RelativeToolTip": "DAL\\Models\\Prescription.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UOW.cs",
+              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\repositories\\RepoImplementation\\UOW.cs",
+              "RelativeDocumentMoniker": "DAL\\repositories\\RepoImplementation\\UOW.cs",
+              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\repositories\\RepoImplementation\\UOW.cs",
+              "RelativeToolTip": "DAL\\repositories\\RepoImplementation\\UOW.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T09:51:05.441Z"
+              "WhenOpened": "2026-05-02T08:10:58.199Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PrescriptionController.cs",
-              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\FHIA\\Controllers\\PrescriptionController.cs",
-              "RelativeDocumentMoniker": "FHIA\\Controllers\\PrescriptionController.cs",
-              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\FHIA\\Controllers\\PrescriptionController.cs",
-              "RelativeToolTip": "FHIA\\Controllers\\PrescriptionController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAkwEUAAAAXAAAAAAAAAA==",
+              "Title": "GenericReposatory.cs",
+              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\repositories\\RepoImplementation\\GenericReposatory.cs",
+              "RelativeDocumentMoniker": "DAL\\repositories\\RepoImplementation\\GenericReposatory.cs",
+              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\repositories\\RepoImplementation\\GenericReposatory.cs",
+              "RelativeToolTip": "DAL\\repositories\\RepoImplementation\\GenericReposatory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T09:50:32.616Z",
+              "WhenOpened": "2026-05-02T08:10:53.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PrescriptionService.cs",
-              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\BLL\\ServiceImplementation\\PrescriptionService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\PrescriptionService.cs",
-              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\BLL\\ServiceImplementation\\PrescriptionService.cs",
-              "RelativeToolTip": "BLL\\ServiceImplementation\\PrescriptionService.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAwwHwAAAAJAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\DAL\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "DAL\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T09:50:12.251Z"
+              "WhenOpened": "2026-05-02T08:10:46.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IPrescriptionService.cs",
-              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\BLL\\ServiceAbstraction\\IPrescriptionService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IPrescriptionService.cs",
-              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\BLL\\ServiceAbstraction\\IPrescriptionService.cs",
-              "RelativeToolTip": "BLL\\ServiceAbstraction\\IPrescriptionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "HospitalService.cs",
+              "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\BLL\\ServiceImplementation\\HospitalService.cs",
+              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\HospitalService.cs",
+              "ToolTip": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\BLL\\ServiceImplementation\\HospitalService.cs",
+              "RelativeToolTip": "BLL\\ServiceImplementation\\HospitalService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T09:50:02.359Z"
+              "WhenOpened": "2026-05-02T08:08:09.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\netCore_demo\\Sadat-University-Healthcare-Project-Api\\Sadat-University-Healthcare-Project-Api\\FHIA\\Program.cs",
               "RelativeDocumentMoniker": "FHIA\\Program.cs",
@@ -157,7 +143,8 @@
               "RelativeToolTip": "FHIA\\Program.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAowD4AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T13:34:09.024Z"
+              "WhenOpened": "2026-04-01T13:34:09.024Z",
+              "EditorCaption": ""
             }
           ]
         },
