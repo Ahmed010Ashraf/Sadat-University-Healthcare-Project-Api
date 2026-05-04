@@ -1,4 +1,5 @@
-﻿using BLL.Dtos.MedicalExaminationRequest;
+﻿using BLL.Dtos.MedicalExamination;
+using BLL.Dtos.MedicalExaminationRequest;
 using BLL.ServiceAbstraction;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -25,6 +26,15 @@ namespace FHIA.Controllers
             var res = await _service.GetById(id);
             return Ok(res);
         }
+
+
+        [HttpGet("User/{id}")]
+        public async Task<ActionResult<IEnumerable<MedicalExaminationRequestResultDto>>> GetMedicalExaminationRequestByUserId(Guid id)
+        {
+            var res = await _service.GetMedicalExaminationRequestByUserId(id);
+            return Ok(res);
+        }
+
 
         [HttpPost]
         public async Task<ActionResult<MedicalExaminationRequestResultDto>> Create (CreateOrUpdateMedicalExaminationRequestDto dto)

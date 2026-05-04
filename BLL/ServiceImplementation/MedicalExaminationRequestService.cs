@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
+using BLL.Dtos.MedicalExamination;
 using BLL.Dtos.MedicalExaminationRequest;
 using BLL.ServiceAbstraction;
 using DAL.Exceptions;
 using DAL.Models;
 using DAL.Models.Enums;
 using DAL.repositories.RepoAbstraction;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace BLL.ServiceImplementation
 {
-    public class MedicalExaminationRequestService( IAttachmentService _attach,IUOW _uow , IMapper _mapper) : IMedicalExaminationRequestService
+    public class MedicalExaminationRequestService( IAttachmentService _attach,IUOW _uow , IMapper _mapper , UserManager<AppUser> usermanager) : IMedicalExaminationRequestService
     {
 
         public async Task<IEnumerable<MedicalExaminationRequestResultDto>> GetAll()
@@ -28,6 +30,20 @@ namespace BLL.ServiceImplementation
             var request = await _uow.GetReposatory<MedicalExaminationRequest, Guid>().GetById(id)?? throw new MedicalExaminationRequestNotFoundException(id);
             var result = _mapper.Map<MedicalExaminationRequestResultDto>(request);
             return result;
+        }
+
+        public async Task<IEnumerable<MedicalExaminationRequestResultDto>> GetMedicalExaminationRequestByUserId(Guid userId)
+        {
+            var user = await usermanager.FindByIdAsync(userId.ToString()) ?? throw new UserNotFoundException(userId);
+
+            var medicalExmaination = await _uow.GetReposatory<MedicalExaminationRequest, Guid>().GetAll(me => me.UserId == userId);
+
+            if (medicalExmaination is null)
+            {
+                throw new NotFoundException("there is no medical examination requests for this user");
+            }
+
+            return _mapper.Map<IEnumerable<MedicalExaminationRequestResultDto>>(medicalExmaination);
         }
 
 
@@ -54,10 +70,10 @@ namespace BLL.ServiceImplementation
             {
                 request.MedicalReportPath = _attach.Upload(createOrUpdateMedicalExaminationRequestDto.MedicalReportPath, "Images");
             }
-            else
-            {
-                throw new Exception("image not found ");
-            }
+            //else
+            //{
+            //    throw new Exception("image not found ");
+            //}
 
             
 

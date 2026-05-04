@@ -4,6 +4,7 @@ using BLL.ServiceAbstraction;
 using DAL.Exceptions;
 using DAL.Models;
 using DAL.repositories.RepoAbstraction;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -14,16 +15,33 @@ namespace BLL.ServiceImplementation
     {
         private readonly IUOW _uow;
         private readonly IMapper _mapper;
+        private readonly UserManager<AppUser> usermanager;
 
-        public MedicalExaminationService(IUOW uow, IMapper mapper)
+        public MedicalExaminationService(IUOW uow, IMapper mapper , UserManager<AppUser> _usermanager)
         {
             _uow = uow;
             _mapper = mapper;
+            usermanager = _usermanager;
         }
 
         public async Task<IEnumerable<MedicalExaminationResultDto>> GetAll()
         {
             var items = await _uow.GetReposatory<MedicalExamination, Guid>().GetAll();
+
+
+            var limits = await _uow.GetReposatory<MonthlyLimit, Guid>().GetAll();
+            var limit = limits.FirstOrDefault();
+            var days = limit?.Days ?? 0;
+
+            foreach (var me in items)
+            {
+                if (me.ExaminationDate > DateTime.UtcNow.AddMonths(days))
+                {
+                    me.MedicalExaminationStatus = DAL.Models.Enums.MedicalExaminationStatus.expired;
+                }
+            }
+
+           
             return _mapper.Map<IEnumerable<MedicalExaminationResultDto>>(items);
         }
 
@@ -32,6 +50,18 @@ namespace BLL.ServiceImplementation
             var entity = await _uow.GetReposatory<MedicalExamination, Guid>().GetById(id);
             if (entity is null)
                 throw new MedicalExaminationNotFounsException(id);
+
+
+            var limits = await _uow.GetReposatory<MonthlyLimit, Guid>().GetAll();
+            var limit = limits.FirstOrDefault();
+            var days = limit?.Days ?? 0;
+
+            if (entity.ExaminationDate > DateTime.UtcNow.AddMonths(days))
+                {
+                    entity.MedicalExaminationStatus = DAL.Models.Enums.MedicalExaminationStatus.expired;
+                }
+            
+
 
             return _mapper.Map<MedicalExaminationResultDto>(entity);
         }
@@ -66,6 +96,16 @@ namespace BLL.ServiceImplementation
                 throw new Exception("Already Completed");
             }
 
+            var limits = await _uow.GetReposatory<MonthlyLimit, Guid>().GetAll();
+            var limit = limits.FirstOrDefault();
+            var days = limit?.Days ?? 0;
+
+            if (entity.ExaminationDate > DateTime.UtcNow.AddMonths(days))
+            {
+                throw new Exception("Already Expired");
+            }
+
+
             _mapper.Map(dto, entity);
 
             entity.MedicalExaminationStatus = DAL.Models.Enums.MedicalExaminationStatus.completed;
@@ -99,6 +139,34 @@ namespace BLL.ServiceImplementation
 
             return _mapper.Map<MedicalExaminationResultDto>(medicalExmaination.FirstOrDefault());
 
+        }
+
+        public async Task<IEnumerable<MedicalExaminationResultDto>> GetMedicalExaminationByUserId(Guid userId)
+        {
+            var user = await usermanager.FindByIdAsync(userId.ToString()) ?? throw new UserNotFoundException(userId);
+
+            var medicalExmaination = await _uow.GetReposatory<MedicalExamination, Guid>().GetAll(me => me.UserId == userId);
+
+            if (medicalExmaination is null)
+            {
+                throw new NotFoundException("there is no medical examination for this user");
+            }
+
+            var limits = await _uow.GetReposatory<MonthlyLimit, Guid>().GetAll();
+            var limit = limits.FirstOrDefault();
+            var days = limit?.Days ?? 0;
+
+            foreach (var me in medicalExmaination)
+            {
+                if (me.ExaminationDate > DateTime.UtcNow.AddMonths(days))
+                {
+                    me.MedicalExaminationStatus = DAL.Models.Enums.MedicalExaminationStatus.expired;
+                }
+            }
+
+            
+
+            return _mapper.Map<IEnumerable<MedicalExaminationResultDto>>(medicalExmaination);
         }
     }
 }

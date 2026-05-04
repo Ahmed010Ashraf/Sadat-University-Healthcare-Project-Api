@@ -1,0 +1,15 @@
+D:\c#\New folder (11)\FHIA\DAL\bin\Release\net8.0\DAL.deps.json
+D:\c#\New folder (11)\FHIA\DAL\bin\Release\net8.0\DAL.runtimeconfig.json
+D:\c#\New folder (11)\FHIA\DAL\bin\Release\net8.0\DAL.dll
+D:\c#\New folder (11)\FHIA\DAL\bin\Release\net8.0\DAL.pdb
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.csproj.AssemblyReference.cache
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.AssemblyInfoInputs.cache
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.AssemblyInfo.cs
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.sourcelink.json
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.dll
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\refint\DAL.dll
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.pdb
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\DAL.genruntimeconfig.cache
+D:\c#\New folder (11)\FHIA\DAL\obj\Release\net8.0\ref\DAL.dll

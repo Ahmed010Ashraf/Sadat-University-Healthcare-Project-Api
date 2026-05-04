@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\c#\\New folder (11)\\FHIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceimplementation\\medicalexaminationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\medicalexaminationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\models\\monthlylimit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\models\\monthlylimit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceimplementation\\medicalexaminationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,176 +19,52 @@
       "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\models\\enums\\medicalexaminationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\controllers\\medicalexaminationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\medicalexaminationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceimplementation\\medicalexaminationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\medicalexaminationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceabstraction\\imedicalexaminationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\imedicalexaminationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\controllers\\monthlylimitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\monthlylimitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\controllers\\medicalexaminationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\medicalexaminationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceimplementation\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\controllers\\medicalexaminationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\medicalexaminationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\mappingprofile\\medicalexaminationprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\mappingprofile\\medicalexaminationprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceabstraction\\imedicalexaminationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\imedicalexaminationrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\mappingprofile\\mappingprofilesassemply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\mappingprofile\\mappingprofilesassemply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\middlewares\\customexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\middlewares\\customexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\controllers\\hospitalpaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\hospitalpaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\errors\\validationerrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\errors\\validationerrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceimplementation\\hospitalpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\hospitalpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\errors\\customerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\errors\\customerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\exceptions\\hospitalpaymentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\exceptions\\hospitalpaymentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceabstraction\\imedicalexaminationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\imedicalexaminationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceabstraction\\ihospitalpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\ihospitalpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\mappingprofile\\hospitalpaymentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\mappingprofile\\hospitalpaymentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\hospitalpayment\\hospitalpaymentresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\hospitalpayment\\hospitalpaymentresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\hospitalpayment\\createorupdatehospitalpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\hospitalpayment\\createorupdatehospitalpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\mappingprofile\\hospitalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\mappingprofile\\hospitalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceimplementation\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\exceptions\\hospitalnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\exceptions\\hospitalnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceabstraction\\ihospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\ihospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\hospital\\hospitalresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\hospital\\hospitalresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\hospital\\createorupdatehospitaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\hospital\\createorupdatehospitaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\exceptions\\medicalexaminationrequestnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\exceptions\\medicalexaminationrequestnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceabstraction\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceabstraction\\iattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\iattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceimplementation\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\role\\roleresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\role\\roleresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\mappingprofile\\roleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\mappingprofile\\roleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\exceptions\\rolewiththisidisnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\exceptions\\rolewiththisidisnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\role\\createorupdateroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\role\\createorupdateroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\user\\userreturnedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\user\\userreturnedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceimplementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceimplementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\serviceabstraction\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\serviceabstraction\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|d:\\c#\\new folder (11)\\fhia\\fhia\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A0B2D3-9533-4559-A789-B4FF5979BD0A}|FHIA\\FHIA.csproj|solutionrelative:fhia\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\exceptions\\rolenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\exceptions\\rolenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\mappingprofile\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\mappingprofile\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|d:\\c#\\new folder (11)\\fhia\\bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6058ECF-A0DB-4841-8A90-711B0294FCFF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|d:\\c#\\new folder (11)\\fhia\\dal\\data\\migrations\\20260504181409_updateexpirationdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF3A504-E989-496A-98C9-4808195273E3}|DAL\\DAL.csproj|solutionrelative:dal\\data\\migrations\\20260504181409_updateexpirationdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -193,571 +73,206 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 419,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MedicalExaminationStatus.cs",
               "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Models\\Enums\\MedicalExaminationStatus.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Enums\\MedicalExaminationStatus.cs",
               "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Models\\Enums\\MedicalExaminationStatus.cs",
               "RelativeToolTip": "DAL\\Models\\Enums\\MedicalExaminationStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:01:06.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T18:02:39.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MedicalExaminationRequestController.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MedicalExaminationRequestController.cs",
-              "RelativeDocumentMoniker": "FHIA\\Controllers\\MedicalExaminationRequestController.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MedicalExaminationRequestController.cs",
-              "RelativeToolTip": "FHIA\\Controllers\\MedicalExaminationRequestController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAzwB4AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MonthlyLimitController.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MonthlyLimitController.cs",
+              "RelativeDocumentMoniker": "FHIA\\Controllers\\MonthlyLimitController.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MonthlyLimitController.cs",
+              "RelativeToolTip": "FHIA\\Controllers\\MonthlyLimitController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvyAAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T12:08:53.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T17:55:39.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MedicalExaminationRequestService.cs",
               "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\MedicalExaminationRequestService.cs",
               "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\MedicalExaminationRequestService.cs",
               "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\MedicalExaminationRequestService.cs",
               "RelativeToolTip": "BLL\\ServiceImplementation\\MedicalExaminationRequestService.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAgwF4AAABZAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCIAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T12:08:53.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T22:10:00.113Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MedicalExaminationService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\MedicalExaminationService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\MedicalExaminationService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\MedicalExaminationService.cs",
-              "RelativeToolTip": "BLL\\ServiceImplementation\\MedicalExaminationService.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowEIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:21:32.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MedicalExaminationController.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MedicalExaminationController.cs",
-              "RelativeDocumentMoniker": "FHIA\\Controllers\\MedicalExaminationController.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MedicalExaminationController.cs",
-              "RelativeToolTip": "FHIA\\Controllers\\MedicalExaminationController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAuwEUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T12:54:29.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IMedicalExaminationService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IMedicalExaminationService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IMedicalExaminationService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IMedicalExaminationService.cs",
-              "RelativeToolTip": "BLL\\ServiceAbstraction\\IMedicalExaminationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T12:47:59.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Program.cs",
-              "RelativeDocumentMoniker": "FHIA\\Program.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Program.cs",
-              "RelativeToolTip": "FHIA\\Program.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAowIMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:26:54.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MappingProfilesAssemply.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\MappingProfilesAssemply.cs",
-              "RelativeDocumentMoniker": "BLL\\MappingProfile\\MappingProfilesAssemply.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\MappingProfilesAssemply.cs",
-              "RelativeToolTip": "BLL\\MappingProfile\\MappingProfilesAssemply.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:15:11.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AttachmentService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\AttachmentService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\AttachmentService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\AttachmentService.cs",
-              "RelativeToolTip": "BLL\\ServiceImplementation\\AttachmentService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwCkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:14:47.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\appsettings.json",
               "RelativeDocumentMoniker": "FHIA\\appsettings.json",
               "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\appsettings.json",
               "RelativeToolTip": "FHIA\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-16T14:18:50.776Z",
+              "WhenOpened": "2026-04-13T18:31:03.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MedicalExaminationProfile.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\MedicalExaminationProfile.cs",
-              "RelativeDocumentMoniker": "BLL\\MappingProfile\\MedicalExaminationProfile.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\MedicalExaminationProfile.cs",
-              "RelativeToolTip": "BLL\\MappingProfile\\MedicalExaminationProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MonthlyLimit.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Models\\MonthlyLimit.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\MonthlyLimit.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Models\\MonthlyLimit.cs",
+              "RelativeToolTip": "DAL\\Models\\MonthlyLimit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T16:49:49.531Z",
+              "WhenOpened": "2026-05-04T17:54:01.288Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IHospitalPaymentService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IHospitalPaymentService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IHospitalPaymentService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IHospitalPaymentService.cs",
-              "RelativeToolTip": "BLL\\ServiceAbstraction\\IHospitalPaymentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:20:35.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HospitalPaymentNotFoundException.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\HospitalPaymentNotFoundException.cs",
-              "RelativeDocumentMoniker": "DAL\\Exceptions\\HospitalPaymentNotFoundException.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\HospitalPaymentNotFoundException.cs",
-              "RelativeToolTip": "DAL\\Exceptions\\HospitalPaymentNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:23:05.438Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "HospitalPaymentProfile.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\HospitalPaymentProfile.cs",
-              "RelativeDocumentMoniker": "BLL\\MappingProfile\\HospitalPaymentProfile.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\HospitalPaymentProfile.cs",
-              "RelativeToolTip": "BLL\\MappingProfile\\HospitalPaymentProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "20260504181409_updateexpirationdate.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Data\\Migrations\\20260504181409_updateexpirationdate.cs",
+              "RelativeDocumentMoniker": "DAL\\Data\\Migrations\\20260504181409_updateexpirationdate.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Data\\Migrations\\20260504181409_updateexpirationdate.cs",
+              "RelativeToolTip": "DAL\\Data\\Migrations\\20260504181409_updateexpirationdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:20:29.278Z"
+              "WhenOpened": "2026-05-04T18:14:09.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HospitalPaymentService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\HospitalPaymentService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\HospitalPaymentService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\HospitalPaymentService.cs",
-              "RelativeToolTip": "BLL\\ServiceImplementation\\HospitalPaymentService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwEkAAABPAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "DAL\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:20:51.078Z"
+              "WhenOpened": "2026-05-04T17:54:50.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicalExaminationService.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\MedicalExaminationService.cs",
+              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\MedicalExaminationService.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\MedicalExaminationService.cs",
+              "RelativeToolTip": "BLL\\ServiceImplementation\\MedicalExaminationService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T04:04:56.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicalExaminationRequestController.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MedicalExaminationRequestController.cs",
+              "RelativeDocumentMoniker": "FHIA\\Controllers\\MedicalExaminationRequestController.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MedicalExaminationRequestController.cs",
+              "RelativeToolTip": "FHIA\\Controllers\\MedicalExaminationRequestController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB8AAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T17:29:11.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMedicalExaminationRequestService.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IMedicalExaminationRequestService.cs",
+              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IMedicalExaminationRequestService.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IMedicalExaminationRequestService.cs",
+              "RelativeToolTip": "BLL\\ServiceAbstraction\\IMedicalExaminationRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T17:32:48.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicalExaminationController.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MedicalExaminationController.cs",
+              "RelativeDocumentMoniker": "FHIA\\Controllers\\MedicalExaminationController.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\MedicalExaminationController.cs",
+              "RelativeToolTip": "FHIA\\Controllers\\MedicalExaminationController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T04:08:47.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomExceptionMiddleWare.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\MiddleWares\\CustomExceptionMiddleWare.cs",
+              "RelativeDocumentMoniker": "FHIA\\MiddleWares\\CustomExceptionMiddleWare.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\MiddleWares\\CustomExceptionMiddleWare.cs",
+              "RelativeToolTip": "FHIA\\MiddleWares\\CustomExceptionMiddleWare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:56:46.261Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "HospitalPaymentController.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\HospitalPaymentController.cs",
-              "RelativeDocumentMoniker": "FHIA\\Controllers\\HospitalPaymentController.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\HospitalPaymentController.cs",
-              "RelativeToolTip": "FHIA\\Controllers\\HospitalPaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Program.cs",
+              "RelativeDocumentMoniker": "FHIA\\Program.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Program.cs",
+              "RelativeToolTip": "FHIA\\Program.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:21:00.038Z"
+              "WhenOpened": "2026-04-01T13:34:09.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HospitalPaymentResultDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\HospitalPayment\\HospitalPaymentResultDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\HospitalPayment\\HospitalPaymentResultDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\HospitalPayment\\HospitalPaymentResultDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\HospitalPayment\\HospitalPaymentResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "CustomError.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\errors\\CustomError.cs",
+              "RelativeDocumentMoniker": "BLL\\Dtos\\errors\\CustomError.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\errors\\CustomError.cs",
+              "RelativeToolTip": "BLL\\Dtos\\errors\\CustomError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:20:18.013Z"
+              "WhenOpened": "2026-04-23T11:59:19.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateOrUpdateHospitalPaymentDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\HospitalPayment\\CreateOrUpdateHospitalPaymentDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\HospitalPayment\\CreateOrUpdateHospitalPaymentDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\HospitalPayment\\CreateOrUpdateHospitalPaymentDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\HospitalPayment\\CreateOrUpdateHospitalPaymentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "ValidationErrors.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\errors\\ValidationErrors.cs",
+              "RelativeDocumentMoniker": "BLL\\Dtos\\errors\\ValidationErrors.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\errors\\ValidationErrors.cs",
+              "RelativeToolTip": "BLL\\Dtos\\errors\\ValidationErrors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:20:23.651Z"
+              "WhenOpened": "2026-04-23T12:01:23.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HospitalProfile.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\HospitalProfile.cs",
-              "RelativeDocumentMoniker": "BLL\\MappingProfile\\HospitalProfile.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\HospitalProfile.cs",
-              "RelativeToolTip": "BLL\\MappingProfile\\HospitalProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "IMedicalExaminationService.cs",
+              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IMedicalExaminationService.cs",
+              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IMedicalExaminationService.cs",
+              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IMedicalExaminationService.cs",
+              "RelativeToolTip": "BLL\\ServiceAbstraction\\IMedicalExaminationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:14:02.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HospitalNotFoundException.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\HospitalNotFoundException.cs",
-              "RelativeDocumentMoniker": "DAL\\Exceptions\\HospitalNotFoundException.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\HospitalNotFoundException.cs",
-              "RelativeToolTip": "DAL\\Exceptions\\HospitalNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:17:27.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HospitalController.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\HospitalController.cs",
-              "RelativeDocumentMoniker": "FHIA\\Controllers\\HospitalController.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\HospitalController.cs",
-              "RelativeToolTip": "FHIA\\Controllers\\HospitalController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:14:23.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HospitalService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\HospitalService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\HospitalService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\HospitalService.cs",
-              "RelativeToolTip": "BLL\\ServiceImplementation\\HospitalService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEIAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:14:15.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IHospitalService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IHospitalService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IHospitalService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IHospitalService.cs",
-              "RelativeToolTip": "BLL\\ServiceAbstraction\\IHospitalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:13:57.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreateOrUpdateHospitalDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\Hospital\\CreateOrUpdateHospitalDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\Hospital\\CreateOrUpdateHospitalDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\Hospital\\CreateOrUpdateHospitalDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\Hospital\\CreateOrUpdateHospitalDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:13:51.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HospitalResultDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\Hospital\\HospitalResultDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\Hospital\\HospitalResultDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\Hospital\\HospitalResultDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\Hospital\\HospitalResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T23:13:45.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MedicalExaminationRequestNotFoundException.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\MedicalExaminationRequestNotFoundException.cs",
-              "RelativeDocumentMoniker": "DAL\\Exceptions\\MedicalExaminationRequestNotFoundException.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\MedicalExaminationRequestNotFoundException.cs",
-              "RelativeToolTip": "DAL\\Exceptions\\MedicalExaminationRequestNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:14:16.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IAttachmentService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IAttachmentService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IAttachmentService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IAttachmentService.cs",
-              "RelativeToolTip": "BLL\\ServiceAbstraction\\IAttachmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:13:31.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "FHIA\\Controllers\\RoleController.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "FHIA\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwvyoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:44:58.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "RoleWithThisIdIsNotFound.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\RoleWithThisIdIsNotFound.cs",
-              "RelativeDocumentMoniker": "DAL\\Exceptions\\RoleWithThisIdIsNotFound.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\RoleWithThisIdIsNotFound.cs",
-              "RelativeToolTip": "DAL\\Exceptions\\RoleWithThisIdIsNotFound.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:37:43.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "RoleResultDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\Role\\RoleResultDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\Role\\RoleResultDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\Role\\RoleResultDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\Role\\RoleResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:27:40.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\RoleService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\RoleService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\RoleService.cs",
-              "RelativeToolTip": "BLL\\ServiceImplementation\\RoleService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAjwEEAAABzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:31:16.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IRoleService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IRoleService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IRoleService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IRoleService.cs",
-              "RelativeToolTip": "BLL\\ServiceAbstraction\\IRoleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:28:39.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "RoleProfile.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\RoleProfile.cs",
-              "RelativeDocumentMoniker": "BLL\\MappingProfile\\RoleProfile.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\RoleProfile.cs",
-              "RelativeToolTip": "BLL\\MappingProfile\\RoleProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:35:00.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CreateOrUpdateRoleDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\Role\\CreateOrUpdateRoleDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\Role\\CreateOrUpdateRoleDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\Role\\CreateOrUpdateRoleDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\Role\\CreateOrUpdateRoleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:28:15.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\UserService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceImplementation\\UserService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceImplementation\\UserService.cs",
-              "RelativeToolTip": "BLL\\ServiceImplementation\\UserService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBAAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:48:53.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IUserService.cs",
-              "RelativeDocumentMoniker": "BLL\\ServiceAbstraction\\IUserService.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\ServiceAbstraction\\IUserService.cs",
-              "RelativeToolTip": "BLL\\ServiceAbstraction\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:46:39.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "RoleNotFoundException.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\RoleNotFoundException.cs",
-              "RelativeDocumentMoniker": "DAL\\Exceptions\\RoleNotFoundException.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\RoleNotFoundException.cs",
-              "RelativeToolTip": "DAL\\Exceptions\\RoleNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:04:50.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "UserReturnedResultDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\user\\UserReturnedResultDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\user\\UserReturnedResultDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\user\\UserReturnedResultDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\user\\UserReturnedResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:42:53.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "DAL\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "DAL\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:55:58.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UserNotFoundException.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\UserNotFoundException.cs",
-              "RelativeDocumentMoniker": "DAL\\Exceptions\\UserNotFoundException.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Exceptions\\UserNotFoundException.cs",
-              "RelativeToolTip": "DAL\\Exceptions\\UserNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:56:16.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "FHIA\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\FHIA\\Controllers\\UserController.cs",
-              "RelativeToolTip": "FHIA\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:08:29.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\UserProfile.cs",
-              "RelativeDocumentMoniker": "BLL\\MappingProfile\\UserProfile.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\MappingProfile\\UserProfile.cs",
-              "RelativeToolTip": "BLL\\MappingProfile\\UserProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:50:15.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\AppUser.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\DAL\\Models\\AppUser.cs",
-              "RelativeToolTip": "DAL\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:43:11.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "BLL.csproj",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\BLL.csproj",
-              "RelativeDocumentMoniker": "BLL\\BLL.csproj",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\BLL.csproj",
-              "RelativeToolTip": "BLL\\BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-15T09:49:58.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\user\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\user\\UpdateUserDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\user\\UpdateUserDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\user\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:45:25.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "BLL\\Dtos\\RegisterDto.cs",
-              "ToolTip": "D:\\c#\\New folder (11)\\FHIA\\BLL\\Dtos\\RegisterDto.cs",
-              "RelativeToolTip": "BLL\\Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:43:41.833Z"
+              "WhenOpened": "2026-04-18T04:04:37.424Z"
             }
           ]
         }

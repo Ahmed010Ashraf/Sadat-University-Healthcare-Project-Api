@@ -68,5 +68,13 @@ namespace FHIA.Controllers
             var res = await _service.GetMedicalExaminationByRequestId(id);
             return Ok(res);
         }
+
+        [HttpGet("User/{id}")]
+
+        public async Task<ActionResult<IEnumerable<MedicalExaminationResultDto>>> GetMedicalExaminationByUserId(Guid id)
+        {
+            var res = await _service.GetMedicalExaminationByUserId(id);
+            return Ok(res);
+        }
     }
-}
+    }

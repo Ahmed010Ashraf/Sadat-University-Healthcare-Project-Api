@@ -1,5 +1,5 @@
-
 using BLL.Dtos;
+using BLL.Dtos.errors;
 using BLL.MappingProfile;
 using BLL.ServiceAbstraction;
 using BLL.ServiceImplementation;
@@ -7,9 +7,11 @@ using DAL.Context;
 using DAL.Models;
 using DAL.repositories.RepoAbstraction;
 using DAL.repositories.RepoImplementation;
+using FHIA.MiddleWares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -26,6 +28,18 @@ namespace FHIA
             // Add services to the container.
 
             builder.Services.AddControllers();
+
+            // Add permissive CORS policy (for development). Adjust for production.
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
+            });
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
            
 
@@ -45,19 +59,19 @@ namespace FHIA
                 });
 
                 option.AddSecurityRequirement(new OpenApiSecurityRequirement
-{
     {
-        new OpenApiSecurityScheme
         {
-            Reference = new OpenApiReference
+            new OpenApiSecurityScheme
             {
-                Type = ReferenceType.SecurityScheme,
-                Id = "Bearer"
-            }
-        },
-        Array.Empty<string>()
-    }
-            });
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+                });
             });
 
             //allow dependancy injection for services and repos
@@ -72,13 +86,21 @@ namespace FHIA
             builder.Services.AddScoped<IHospitalPaymentService, HospitalPaymentService>();
             builder.Services.AddScoped<IHospitalService, HospitalService>();
 
+            builder.Services.AddScoped<IPrescriptionRequestService, PrescriptionRequestService>();
+            builder.Services.AddScoped<IPrescriptionItemService, PrescriptionItemService>();
+            builder.Services.AddScoped<IPrescriptionDispenseService, PrescriptionDispenseService>();
+            builder.Services.AddScoped<IPrescriptionDispenseItemService, PrescriptionDispenseItemService>();
+            builder.Services.AddScoped<IPharmacyService, PharmacyService>();
+            builder.Services.AddScoped<IPharmacyPaymentService, PharmacyPaymentService>();
+            builder.Services.AddScoped<IPrescriptionService, PrescriptionService>();
+
+
 
             //configer mapping profile
             builder.Services.AddAutoMapper(cfg => { }, typeof(MappingProfilesAssemply).Assembly);
 
 
             //add dbcontext configurations    
-            
 
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
@@ -116,24 +138,50 @@ namespace FHIA
                 };
             });
 
+
+
             builder.Services.AddAuthorization();
+
+
+            builder.Services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.InvalidModelStateResponseFactory = context =>
+                {
+                    var errors = context.ModelState
+                        .Where(e => e.Value.Errors.Count > 0)
+                        .Select(e => new Errors
+                        {
+                            Key = e.Key,
+                            ErrorMessages = e.Value.Errors.Select(er => er.ErrorMessage).ToList()
+                        }).ToList();
+                    var errorResponse = new ValidationErrors
+                    {
+                        Errors = errors,
+                        message = "Validation Failed",
+                        StatusCode = StatusCodes.Status400BadRequest
+                    };
+                    return new BadRequestObjectResult(errorResponse);
+                };
+            });
 
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
+            //if (app.Environment.IsDevelopment())
+            //{
                 app.UseSwagger();
                 app.UseSwaggerUI();
-            }
+            //}
 
             app.UseHttpsRedirection();
 
-            app.UseStaticFiles();
+            // Enable CORS for incoming requests
+            app.UseCors("AllowAll");
 
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseMiddleware<CustomExceptionMiddleWare>();
 
             app.MapControllers();
 

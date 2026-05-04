@@ -1,0 +1,16 @@
+D:\c#\New folder (11)\FHIA\BLL\bin\Release\net8.0\BLL.deps.json
+D:\c#\New folder (11)\FHIA\BLL\bin\Release\net8.0\BLL.dll
+D:\c#\New folder (11)\FHIA\BLL\bin\Release\net8.0\BLL.pdb
+D:\c#\New folder (11)\FHIA\BLL\bin\Release\net8.0\DAL.dll
+D:\c#\New folder (11)\FHIA\BLL\bin\Release\net8.0\DAL.pdb
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.csproj.AssemblyReference.cache
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.AssemblyInfoInputs.cache
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.AssemblyInfo.cs
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.sourcelink.json
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.csproj.Up2Date
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.dll
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\refint\BLL.dll
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\BLL.pdb
+D:\c#\New folder (11)\FHIA\BLL\obj\Release\net8.0\ref\BLL.dll
